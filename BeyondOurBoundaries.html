@@ -4,7 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects – Beyond Our Boundaries</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css?v=2">
+  <style>
+    
+    .projects-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 8px;
+    }
+
+    .projects-header .section-tag {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .projects-header .date-tag {
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      text-align: right;
+    }
+  </style>
 </head>
 <body>
 <div class="layout">
@@ -21,18 +47,17 @@
 
   <main class="crisp">
     <div class="projects-header">
-        <div>
-          <span style="font-family: var(--font-sans); font-size: 1rem; color: var(--muted); letter-spacing: 0.05em; display: block; margin-bottom: 4px;">[ BEYOND OUR BOUNDARIES ]</span>
-        </div>
-        <span style="font-family: var(--font-sans); font-size: 0.85rem; color: var(--muted);"> February to September 2025</span>
-      </div>
+      <span class="section-tag">[ BEYOND OUR BOUNDARIES ]</span>
+      <span class="date-tag">FEBRUARY – SEPTEMBER 2025</span>
+    </div>
 
-      <hr style="border: none; border-bottom: 1px solid var(--border-grey); margin: 16px 0;">
+    <p> </p>
 
+    <hr style="border: none; border-bottom: 1px solid var(--border-grey); margin: 16px 0;">
 
   </main>
 
-  <footer class="crisp">© 2026 Jocelyn Eddy</footer>
+  <footer class="crisp">© 2026 Jocelyn Eddy | Creative Computing BSc Student at University of Southampton</footer>
 
 </div>
 </body>
